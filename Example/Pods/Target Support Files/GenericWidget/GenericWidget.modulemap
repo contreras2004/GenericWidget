@@ -1,0 +1,6 @@
+framework module GenericWidget {
+  umbrella header "GenericWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

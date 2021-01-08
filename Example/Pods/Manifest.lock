@@ -1,0 +1,16 @@
+PODS:
+  - GenericWidget (0.1.0)
+
+DEPENDENCIES:
+  - GenericWidget (from `../`)
+
+EXTERNAL SOURCES:
+  GenericWidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GenericWidget: 8d39313aba06905f0a3ea535682fcd9e29b3b69b
+
+PODFILE CHECKSUM: 8d24bb07ce203df7550c86cf075cb274d57276ca
+
+COCOAPODS: 1.10.1
