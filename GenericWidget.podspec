@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GenericWidget'
-  s.version          = '0.2.0'
+  s.version          = '0.1.0'
   s.summary          = 'A library to implement simple Widgets in your app'
 
 # This description is used to generate tags and improve search results.
