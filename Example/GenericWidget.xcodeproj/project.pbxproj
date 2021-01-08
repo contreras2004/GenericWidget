@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CE1FD7425A8B9A800BAB764 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE1FD7325A8B9A800BAB764 /* WidgetKit.framework */; };
-		2CE1FD7625A8B9A800BAB764 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE1FD7525A8B9A800BAB764 /* SwiftUI.framework */; };
-		2CE1FD7925A8B9A800BAB764 /* GenericWidgetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1FD7825A8B9A800BAB764 /* GenericWidgetExtension.swift */; };
-		2CE1FD7C25A8B9AB00BAB764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE1FD7B25A8B9AB00BAB764 /* Assets.xcassets */; };
-		2CE1FD7E25A8B9AB00BAB764 /* GenericWidgetExtension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1FD7A25A8B9A800BAB764 /* GenericWidgetExtension.intentdefinition */; };
-		2CE1FD7F25A8B9AB00BAB764 /* GenericWidgetExtension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1FD7A25A8B9A800BAB764 /* GenericWidgetExtension.intentdefinition */; };
-		2CE1FD8225A8B9AB00BAB764 /* GenericWidgetExtensionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2CE1FD7225A8B9A800BAB764 /* GenericWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5F7A6C435CAD4A7E7C8235C4 /* Pods_GenericWidget_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CA40834990814182082BB5 /* Pods_GenericWidget_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -25,13 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2CE1FD8025A8B9AB00BAB764 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2CE1FD7125A8B9A800BAB764;
-			remoteInfo = GenericWidgetExtensionExtension;
-		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -41,29 +27,8 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		2CE1FD8325A8B9AB00BAB764 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				2CE1FD8225A8B9AB00BAB764 /* GenericWidgetExtensionExtension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		13D1408D159A711362089993 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2CE1FD7225A8B9A800BAB764 /* GenericWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GenericWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CE1FD7325A8B9A800BAB764 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		2CE1FD7525A8B9A800BAB764 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		2CE1FD7825A8B9A800BAB764 /* GenericWidgetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWidgetExtension.swift; sourceTree = "<group>"; };
-		2CE1FD7A25A8B9A800BAB764 /* GenericWidgetExtension.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = GenericWidgetExtension.intentdefinition; sourceTree = "<group>"; };
-		2CE1FD7B25A8B9AB00BAB764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2CE1FD7D25A8B9AB00BAB764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D1408D159A711362089993 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		38CA40834990814182082BB5 /* Pods_GenericWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericWidget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		471E07B02EA5719F32C67CBA /* Pods-GenericWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericWidget_Example.release.xcconfig"; path = "Target Support Files/Pods-GenericWidget_Example/Pods-GenericWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5B8225C8C5A2673F7A7EA174 /* Pods-GenericWidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericWidget_Tests.release.xcconfig"; path = "Target Support Files/Pods-GenericWidget_Tests/Pods-GenericWidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,23 +42,14 @@
 		607FACE51AFB9204008FA782 /* GenericWidget_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericWidget_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		63FB9C0F73699CC20E78EB53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		63FB9C0F73699CC20E78EB53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		95E2A6C0B8B71D3481C2EC95 /* Pods_GenericWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericWidget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8CAE9AF80C1790CD6DDF82 /* Pods-GenericWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericWidget_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GenericWidget_Tests/Pods-GenericWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D18F1117FD704ED2D5A51620 /* GenericWidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GenericWidget.podspec; path = ../GenericWidget.podspec; sourceTree = "<group>"; };
+		D18F1117FD704ED2D5A51620 /* GenericWidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GenericWidget.podspec; path = ../GenericWidget.podspec; sourceTree = "<group>"; };
 		D623D5EE6A1539E917403324 /* Pods-GenericWidget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericWidget_Example.debug.xcconfig"; path = "Target Support Files/Pods-GenericWidget_Example/Pods-GenericWidget_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2CE1FD6F25A8B9A800BAB764 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CE1FD7625A8B9A800BAB764 /* SwiftUI.framework in Frameworks */,
-				2CE1FD7425A8B9A800BAB764 /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,17 +69,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CE1FD7725A8B9A800BAB764 /* GenericWidgetExtension */ = {
-			isa = PBXGroup;
-			children = (
-				2CE1FD7825A8B9A800BAB764 /* GenericWidgetExtension.swift */,
-				2CE1FD7A25A8B9A800BAB764 /* GenericWidgetExtension.intentdefinition */,
-				2CE1FD7B25A8B9AB00BAB764 /* Assets.xcassets */,
-				2CE1FD7D25A8B9AB00BAB764 /* Info.plist */,
-			);
-			path = GenericWidgetExtension;
-			sourceTree = "<group>";
-		};
 		3FF7DB42AF666351D65FB7DC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +77,7 @@
 				AF8CAE9AF80C1790CD6DDF82 /* Pods-GenericWidget_Tests.debug.xcconfig */,
 				5B8225C8C5A2673F7A7EA174 /* Pods-GenericWidget_Tests.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -141,7 +87,6 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for GenericWidget */,
 				607FACE81AFB9204008FA782 /* Tests */,
-				2CE1FD7725A8B9A800BAB764 /* GenericWidgetExtension */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3FF7DB42AF666351D65FB7DC /* Pods */,
 				671EFC7D4A6039E37956E09E /* Frameworks */,
@@ -153,7 +98,6 @@
 			children = (
 				607FACD01AFB9204008FA782 /* GenericWidget_Example.app */,
 				607FACE51AFB9204008FA782 /* GenericWidget_Tests.xctest */,
-				2CE1FD7225A8B9A800BAB764 /* GenericWidgetExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,8 +156,6 @@
 			children = (
 				95E2A6C0B8B71D3481C2EC95 /* Pods_GenericWidget_Example.framework */,
 				38CA40834990814182082BB5 /* Pods_GenericWidget_Tests.framework */,
-				2CE1FD7325A8B9A800BAB764 /* WidgetKit.framework */,
-				2CE1FD7525A8B9A800BAB764 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,23 +163,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CE1FD7125A8B9A800BAB764 /* GenericWidgetExtensionExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2CE1FD8625A8B9AB00BAB764 /* Build configuration list for PBXNativeTarget "GenericWidgetExtensionExtension" */;
-			buildPhases = (
-				2CE1FD6E25A8B9A800BAB764 /* Sources */,
-				2CE1FD6F25A8B9A800BAB764 /* Frameworks */,
-				2CE1FD7025A8B9A800BAB764 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GenericWidgetExtensionExtension;
-			productName = GenericWidgetExtensionExtension;
-			productReference = 2CE1FD7225A8B9A800BAB764 /* GenericWidgetExtensionExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		607FACCF1AFB9204008FA782 /* GenericWidget_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GenericWidget_Example" */;
@@ -247,12 +172,10 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				06FDEE295CBDD5E7097228D6 /* [CP] Embed Pods Frameworks */,
-				2CE1FD8325A8B9AB00BAB764 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2CE1FD8125A8B9AB00BAB764 /* PBXTargetDependency */,
 			);
 			name = GenericWidget_Example;
 			productName = GenericWidget;
@@ -284,14 +207,10 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					2CE1FD7125A8B9A800BAB764 = {
-						CreatedOnToolsVersion = 12.3;
-						ProvisioningStyle = Automatic;
-					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -308,7 +227,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -319,20 +237,11 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* GenericWidget_Example */,
 				607FACE41AFB9204008FA782 /* GenericWidget_Tests */,
-				2CE1FD7125A8B9A800BAB764 /* GenericWidgetExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2CE1FD7025A8B9A800BAB764 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CE1FD7C25A8B9AB00BAB764 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,22 +327,12 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CE1FD6E25A8B9A800BAB764 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CE1FD7E25A8B9AB00BAB764 /* GenericWidgetExtension.intentdefinition in Sources */,
-				2CE1FD7925A8B9A800BAB764 /* GenericWidgetExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				2CE1FD7F25A8B9AB00BAB764 /* GenericWidgetExtension.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,11 +347,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2CE1FD8125A8B9AB00BAB764 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2CE1FD7125A8B9A800BAB764 /* GenericWidgetExtensionExtension */;
-			targetProxy = 2CE1FD8025A8B9AB00BAB764 /* PBXContainerItemProxy */;
-		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* GenericWidget_Example */;
@@ -480,65 +374,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2CE1FD8425A8B9AB00BAB764 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = GenericWidgetExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.GenericWidget-Example.GenericWidgetExtension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2CE1FD8525A8B9AB00BAB764 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = GenericWidgetExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.GenericWidget-Example.GenericWidgetExtension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -642,7 +477,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D623D5EE6A1539E917403324 /* Pods-GenericWidget_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GenericWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -658,7 +492,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 471E07B02EA5719F32C67CBA /* Pods-GenericWidget_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GenericWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -713,15 +546,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CE1FD8625A8B9AB00BAB764 /* Build configuration list for PBXNativeTarget "GenericWidgetExtensionExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2CE1FD8425A8B9AB00BAB764 /* Debug */,
-				2CE1FD8525A8B9AB00BAB764 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "GenericWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
