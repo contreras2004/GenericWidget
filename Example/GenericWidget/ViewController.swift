@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import GenericWidget
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let exampleClass = ExampleClass()
+        exampleClass.sayHi()
     }
 
     override func didReceiveMemoryWarning() {
